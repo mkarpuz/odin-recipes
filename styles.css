@@ -1,0 +1,95 @@
+
+/*
+Starting with universals and the homepage specific styling
+*/
+*{
+    font-family: 'Barlow Condensed', 'Inter', system-ui, sans-serif;
+    margin: 10px;
+}
+
+.content{
+    margin-top: 10em;
+    box-sizing: flex;
+    display: block;
+    text-align: center;
+}
+
+#header{
+    
+}
+
+#hero-image{
+    display: inline-block;
+    width: 400px;
+    margin-left: 500px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+.recipes{
+    display: inline-block;
+    margin-right: auto;
+    margin-top: auto;
+    vertical-align: middle;
+    background-color:  #FFD700;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+nav a {
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+
+}
+
+/*
+Styles for Recipe Pages
+*/
+.recipe-name{
+    font-weight: 300;
+    text-align: center;
+}
+
+.meal{
+    display: block;
+    width: 1000px;
+    height: fit-content;
+    margin: auto;
+}
+
+.ingiheader{
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+
+}
+
+.ingredients{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.item{
+    box-sizing: flex;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.recipe-steps{
+    text-align: center;
+    background-color: #FFD700;
+    padding: 10px;
+}
+
+.steps{
+    background-color: #51e2f5;
+}
