@@ -129,10 +129,14 @@ Styles for Recipe Pages-starting with Lasagna
     padding-top: 10px; 
     margin-top: auto;
     margin-bottom: 30px;
+    height: fit-content;
+
 }
 
 .ingredients-flex ul{
-    font-size: 24px;
+    font-size: 22px;
+    height: fit-content;
+
 }
 
 .cikofte-howto{
