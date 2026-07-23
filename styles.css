@@ -29,8 +29,6 @@ Starting with universals and the homepage specific styling
 
 .recipes{
     display: inline-block;
-    margin-right: auto;
-    margin-top: auto;
     vertical-align: middle;
     background-color:  #FFD700;
     font-size: 25px;
@@ -42,8 +40,7 @@ Starting with universals and the homepage specific styling
 nav a {
     display: block;
     box-sizing: border-box;
-    padding: 5px;
-    margin: 10px;
+    height: 50px;
     color: black;
     font-size: 30px;
     border: 2px solid black;
@@ -51,10 +48,11 @@ nav a {
 }
 
 /*
-Styles for Recipe Pages
+Styles for Recipe Pages-starting with Lasagna
 */
 .recipe-name{
-    font-weight: 300;
+    font-size: 46px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -64,6 +62,7 @@ Styles for Recipe Pages
     height: fit-content;
     margin: auto;
 }
+
 
 .ingiheader{
     display: block;
@@ -92,4 +91,61 @@ Styles for Recipe Pages
 
 .steps{
     background-color: #51e2f5;
+}
+
+/* cikofte page specifics*/
+
+.cikofte-flexbox{
+    display: flex;
+}
+
+.cikofte-one{
+    flex: 1;
+    width: 30%;
+    margin: left;
+    height: auto;
+    vertical-align: center;
+}
+
+.cikofte-two{
+    flex:  1;
+    width: 30%;
+    margin: right;
+    height: fit-content;
+    vertical-align: center;
+}
+
+.ingredients-flex{
+    flex: 1;
+    margin-top: 0px;
+    background-color: #f8f8f8;
+
+}
+
+.ingredients-flex .header{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 10px; 
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.ingredients-flex ul{
+    font-size: 24px;
+}
+
+.cikofte-howto{
+    padding: 10px;
+    margin: 10px;
+    background-color:#f8f8f8;
+}
+
+.cikofte-howto #header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.cikofte-howto ol{
+    font-size: 18px;
 }
