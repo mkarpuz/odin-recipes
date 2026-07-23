@@ -108,6 +108,8 @@ Styles for Recipe Pages-starting with Lasagna
 .cikofte-two{
     flex:  1;
     width: 30%;
+    margin: right;
+    vertical-align: center;
 }
 
 .ingredients-flex{
