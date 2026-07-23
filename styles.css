@@ -103,15 +103,12 @@ Styles for Recipe Pages-starting with Lasagna
     flex: 1;
     width: 30%;
     margin: left;
-    height: fit-content;
-    vertical-align: center;
 }
 
 .cikofte-two{
     flex:  1;
     width: 30%;
     margin: right;
-    height: fit-content;
     vertical-align: center;
 }
 
