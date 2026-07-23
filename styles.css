@@ -104,6 +104,7 @@ Styles for Recipe Pages-starting with Lasagna
     width: 30%;
     margin: left;
     height: auto;
+    height: fit-content;
     vertical-align: center;
 }
 
@@ -119,7 +120,7 @@ Styles for Recipe Pages-starting with Lasagna
     flex: 1;
     margin-top: 0px;
     background-color: #f8f8f8;
-
+    height: fit-content;
 }
 
 .ingredients-flex .header{
