@@ -121,10 +121,10 @@ Styles for Recipe Pages-starting with Lasagna
 
 .ingredients-flex .header{
     text-align: center;
-    font-size: 32px;
+    font-size: 200%;
     padding-top: 10px; 
     margin-top: auto;
-    margin-bottom: 30px;
+    margin-bottom: 2em;
     height: fit-content;
 
 }
@@ -144,9 +144,60 @@ Styles for Recipe Pages-starting with Lasagna
 .cikofte-howto #header{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 
 }
 .cikofte-howto ol{
-    font-size: 18px;
+    font-size: 110%;
 }
+
+/* Yayla Soup Page specifics*/
+
+#yayla-title{
+    text-align: center;
+    font-size: 300%;
+}
+
+.yayla-flex{
+    display: flex;
+}
+
+.yayla-flex img{
+    flex: 2;
+    height: auto;
+}
+
+.yayla-flex div{
+    flex: 1;
+    font-size: 110%;
+}
+
+.yayla-flex h2{
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 0.5em;
+
+}  
+.yayla-flex p{
+    background-color: #f8f8f8;
+    text-align: justify;
+    font-size: 160%;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}
+
+.yayla-howto{
+    outline: 2px solid red;
+    background-color: #fffff3;
+}
+
+.yayla-howto h2{
+    text-align: center;
+    padding: 0.5em;
+}
+.yayla-howto ol{
+    padding-bottom: 0.5em;
+}
+
+ 
+
