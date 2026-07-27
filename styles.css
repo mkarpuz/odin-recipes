@@ -14,9 +14,6 @@ Starting with universals and the homepage specific styling
     text-align: center;
 }
 
-#header{
-    
-}
 
 #hero-image{
     display: inline-block;
@@ -27,25 +24,39 @@ Starting with universals and the homepage specific styling
     vertical-align: middle;
 }
 
-.recipes{
-    display: inline-block;
-    vertical-align: middle;
-    background-color:  #FFD700;
-    font-size: 25px;
-    text-align: center;
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 
+.navigation .nav-item{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
 
-nav a {
-    display: block;
-    box-sizing: border-box;
-    height: 50px;
+
+.navigation .nav-item:hover{
+    background-color: darkgoldenrod;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 28px;
     color: black;
-    font-size: 30px;
-    border: 2px solid black;
-
 }
+
+
+
+
 
 /*
 Styles for Recipe Pages-starting with Lasagna
